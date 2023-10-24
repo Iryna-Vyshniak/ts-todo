@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build --base=/vanilla-app-template/",
-    "preview": "vite preview",
+    "build": "tsc build",
     "start": "web-dev-server --node-resolve --open --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,14 +19,8 @@
     "url": "https://github.com/Iryna-Vyshniak/ts-todo/issues"
   },
   "homepage": "https://github.com/Iryna-Vyshniak/ts-todo#readme",
-  "dependencies": {
-    "vite-plugin-full-reload": "^1.0.5",
-    "vite-plugin-html-inject": "^1.0.1"
-  },
   "devDependencies": {
     "typescript": "^5.2.2",
-    "vite": "^4.0.5",
-    "glob": "^8.1.0",
     "@web/dev-server": "^0.3.3"
   }
 }
