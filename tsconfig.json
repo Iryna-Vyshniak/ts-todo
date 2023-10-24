@@ -8,7 +8,7 @@
       "ES2017",
       "ES2023"
     ],
-    "outDir": "./",
+    "outDir": "dist",
     "strict": true,
     "skipLibCheck": true
   },
