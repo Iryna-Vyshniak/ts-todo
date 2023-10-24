@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "lib": [
+      "DOM",
+      "ES2015",
+      "ES2016",
+      "ES2017",
+      "ES2023"
+    ],
+    "outDir": "./",
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "src"
+  ]
+}
