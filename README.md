@@ -7,13 +7,15 @@ JSONPlaceholder service through asynchronous fetch requests.
 
 ## Features
 
-Add new tasks with titles and descriptions. Update task status (e.g., mark as
-completed or pending). Delete tasks. Associate tasks with specific users.
+- Add new tasks with titles and descriptions.
+- Update task status (e.g., mark as completed or pending).
+- Delete tasks.
+- Associate tasks with specific users.
 
 ## Technologies Used
 
-TypeScript JSONPlaceholder API Vite (Build Tool) GitHub Actions (Automatic
-Deployment to GitHub Pages)
+- TypeScript JSONPlaceholder API Vite (Build Tool) - GitHub Actions (Automatic
+  Deployment to GitHub Pages)
 
 ## Deployment
 
