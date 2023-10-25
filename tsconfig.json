@@ -8,7 +8,7 @@
       "ES2017",
       "ES2023"
     ],
-    "outDir": "dist",
+    "outDir": "./dist",
     "strict": true,
     "skipLibCheck": true
   },
@@ -16,6 +16,6 @@
     "node_modules"
   ],
   "include": [
-    "src"
-  ]
+    "src/**/*.ts"
+  ],
 }

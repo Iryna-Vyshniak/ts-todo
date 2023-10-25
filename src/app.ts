@@ -165,7 +165,7 @@ interface IUser {
             const data = await response.json();
 
             return data;
-        } catch (error) {
+        } catch (error) { // в усіх catch, де використовуєм
             if (error instanceof Error)
                 alertError(error);
 
@@ -189,7 +189,7 @@ interface IUser {
             const newTodo = await response.json();
 
             printTodo(newTodo);
-        } catch (error) {
+        } catch (error) { // в усіх catch, де використовуєм
             if (error instanceof Error)
                 alertError(error);
         }
@@ -211,7 +211,7 @@ interface IUser {
             if (!response.ok) {
                 throw new Error('Failed to connect with the server! Please try later.');
             }
-        } catch (error) {
+        } catch (error) { // в усіх catch, де використовуєм
             if (error instanceof Error)
                 alertError(error);
         }
@@ -234,7 +234,7 @@ interface IUser {
             } else {
                 throw new Error('Failed to connect with the server! Please try later.');
             }
-        } catch (error) {
+        } catch (error) { // в усіх catch, де використовуєм
             if (error instanceof Error)
                 alertError(error);
         }
