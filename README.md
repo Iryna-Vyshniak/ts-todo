@@ -5,6 +5,8 @@ using TypeScript. It allows users to add, update, and delete tasks, associating
 them with specific users. The application retrieves data from the
 JSONPlaceholder service through asynchronous fetch requests.
 
+![Screenshot](/screenshots/screen.png)
+
 ## Features
 
 - Add new tasks with titles and descriptions.
